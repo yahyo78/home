@@ -554,7 +554,189 @@ video {
   display: none;
 }
 
-.bg-red-400 {
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.mb-\[20px\] {
+  margin-bottom: 20px;
+}
+
+.ml-\[400px\] {
+  margin-left: 400px;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
+.mt-\[40px\] {
+  margin-top: 40px;
+}
+
+.mt-\[60px\] {
+  margin-top: 60px;
+}
+
+.mt-\[10xp\] {
+  margin-top: 10xp;
+}
+
+.mt-\[10px\] {
+  margin-top: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
+}
+
+.rounded-\[10px\] {
+  border-radius: 10px;
+}
+
+.rounded-\[50px\] {
+  border-radius: 50px;
+}
+
+.bg-\[\#094B72\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity, 1));
+  background-color: rgb(9 75 114 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#E7F6FF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 246 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.p-\[20px\] {
+  padding: 20px;
+}
+
+.p-\[5px\] {
+  padding: 5px;
+}
+
+.p-\[7px\] {
+  padding: 7px;
+}
+
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.px-\[5\%\] {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.py-\[20px\] {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.text-\[11px\] {
+  font-size: 11px;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
+}
+
+.text-\[45px\] {
+  font-size: 45px;
+}
+
+.text-\[\#094B72\] {
+  --tw-text-opacity: 1;
+  color: rgb(9 75 114 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+@media (min-width: 992px) {
+  .lg\:mb-\[20px\] {
+    margin-bottom: 20px;
+  }
+
+  .lg\:mt-\[100px\] {
+    margin-top: 100px;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:w-\[100\%\] {
+    width: 100%;
+  }
+
+  .lg\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:text-\[20px\] {
+    font-size: 20px;
+  }
+
+  .lg\:text-\[25px\] {
+    font-size: 25px;
+  }
+
+  .lg\:text-\[70px\] {
+    font-size: 70px;
+  }
 }
